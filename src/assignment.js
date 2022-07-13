@@ -35,8 +35,8 @@ function countEvenNumbers(arrayOfNumbers) {
       return element % 2 === 0;
     })
   return result.length;
-}
-
+};
+// assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -53,10 +53,7 @@ function countEvenNumbers(arrayOfNumbers) {
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-   let result = arrayOfNumbers.map((element) => {
-    return Math.trunc(((element * (9/5)) + 32))
-  })
-  return result;
+    return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
